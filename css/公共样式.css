@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+    width: 0;
+    height: 0;
+}
