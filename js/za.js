@@ -141,7 +141,7 @@
      date1 = new Date()
      time = new Date('2022-5-27 00:00:00');
 
-     var date2 = (time - date1) / 1000;
+     var date2 = (date1 - time) / 1000;
      // console.log(date2);
      var t = parseInt(date2 / 60 / 60 / 24)
          // console.log(t);
